@@ -1,102 +1,105 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    
+
     <title>calculator</title>
+    <link href="https://fonts.cdnfonts.com/css/ds-digital" rel="stylesheet">
     <style>
-         @font-face {
-    font-family: 'DS-Digital Normal';
-    font-style: normal;
-    font-weight: normal;
-    src: local('DS-Digital Normal'), url('DS-DIGI.woff') format('woff');
-    }
-    
+        .main {
+            background-color: rgb(87, 92, 87);
+            height: 350px;
+            width: 300px;
+            margin: 20px auto;
+            border-radius: 20px;
+            border-color: gray;
+            padding-top: 20px;
 
-        .main{
-        background-color:rgb(87, 92, 87);
-        height: 350px;
-        width:300px;
-       margin:20px auto;
-       border-radius: 20px;
-       border-color: gray;
-       padding-top: 20px;
-    
-    }
-    .inputfield{
-        align-items: right;
-        margin:20px auto;
-        background-color: #A1AF77;
-        text-align: right;
-        font-size: 20px;
-        
-        margin-left: 20px;
-        border-radius: 10px;
-        padding-top: 20px;
-        margin-right: 50px;
-      margin-bottom: 20px;
-      font-family: 'Digital-7', monospace;
-    }
-    .btn-container{
-         display: flex;
-         flex-direction: column;
-        
-       height:200px;
-       justify-content: space-between;
-        flex-wrap: wrap;
-      margin-top: 20px;
+        }
 
-    }
-    .btn{
-        width:50px;
-        font-size: 20px;
-        text-align: center;
-        padding: 2px 0;
-      margin: 3px;
-      margin-left: 15px;
-      cursor: pointer;
-    }
-    .btn:hover{
-        box-shadow: 0 0 5px 0 #fff;
-        transition:0.5s
-    }
-    .btn-equals{
-        background-color: #FF6348;
-        height: 70px;
-    }
+        .inputfield {
+            align-items: right;
+            margin: 20px auto;
+            background-color: #A1AF77;
+            text-align: right;
+            font-size: 20px;
+
+            margin-left: 20px;
+            border-radius: 10px;
+            padding-top: 20px;
+
+            margin-bottom: 20px;
+            padding-right: 50px;
+            font-family: 'Ds-Digital', sans-serif;
+
+        }
+
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+
+            height: 200px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 20px;
+
+        }
+
+        .btn {
+            width: 50px;
+            font-size: 20px;
+            text-align: center;
+            padding: 2px 0;
+            margin: 3px;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            box-shadow: 0 0 5px 0 #fff;
+            transition: 0.5s
+        }
+
+        .btn-equals {
+            background-color: #FF6348;
+            height: 70px;
+        }
     </style>
-    
+
 </head>
+
 <body>
-    
+
     <div class="main">
-        <input type="text" class="inputfield"/>
-   
-    <div class="btn-container">
-    
-        <button class="btn">AC</button>
-        <button class="btn">7</button>
-        <button class="btn">4</button>
-        <button class="btn">1</button>
-        <button class="btn">0</button>
-    
-        <button class="btn">M+</button>
-        <button class="btn">8</button>
-        <button class="btn">5</button>
-        <button class="btn">2</button>
-        <button class="btn">.</button>
+        <input type="text" class="inputfield" />
 
-        <button class="btn">/</button>
-        <button class="btn">9</button>
-        <button class="btn">6</button>
-        <button class="btn">3</button>
-        <button class="btn">%</button>
+        <div class="btn-container">
 
-        <button class="btn">*</button>
-        <button class="btn">-</button>
-        <button class="btn">+</button>
-        <button class="btn btn-equals">=</button>
-        
+            <button class="btn">AC</button>
+            <button class="btn">7</button>
+            <button class="btn">4</button>
+            <button class="btn">1</button>
+            <button class="btn">0</button>
+
+            <button class="btn">M+</button>
+            <button class="btn">8</button>
+            <button class="btn">5</button>
+            <button class="btn">2</button>
+            <button class="btn">.</button>
+
+            <button class="btn">/</button>
+            <button class="btn">9</button>
+            <button class="btn">6</button>
+            <button class="btn">3</button>
+            <button class="btn">%</button>
+
+            <button class="btn">*</button>
+            <button class="btn">-</button>
+            <button class="btn">+</button>
+            <button class="btn btn-equals">=</button>
+
+        </div>
     </div>
-     </div>
 </body>
+
 </html>
