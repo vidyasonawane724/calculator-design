@@ -4,8 +4,15 @@
 <head>
 
     <title>calculator</title>
-    <link href="https://fonts.cdnfonts.com/css/ds-digital" rel="stylesheet">
+   
     <style>
+
+          @font-face {
+    font-family: 'DS-Digital Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DS-Digital Normal'), url('DS-DIGI.woff') format('woff');
+    }
         .main {
             background-color: rgb(87, 92, 87);
             height: 350px;
@@ -30,7 +37,7 @@
 
             margin-bottom: 20px;
             padding-right: 50px;
-            font-family: 'Ds-Digital', sans-serif;
+            font-family: 'DS-Digital Normal';
 
         }
 
@@ -53,6 +60,7 @@
             margin: 3px;
             margin-left: 15px;
             cursor: pointer;
+            border-radius: 5px;
         }
 
         .btn:hover {
@@ -63,6 +71,7 @@
         .btn-equals {
             background-color: #FF6348;
             height: 70px;
+            color: white;
         }
     </style>
 
